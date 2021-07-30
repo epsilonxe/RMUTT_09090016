@@ -1,0 +1,5 @@
+print('Hello', 'World', '!')
+print('Hello', 'World', '!', sep='...')
+print('My name is Dear', end='>>>')
+print('Today is Friday')
+print('<<<')
