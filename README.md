@@ -85,5 +85,5 @@ t-score = 50 + 10*(x - u)/s
 
 
 ## เอกสารอ้างอิง
-- Mark Lutz. Learning Python, 5th Edition. O'Reilly Media, Inc. (2013).
-- W. McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media, Inc. (2018)
+- Mark Lutz. [Learning Python](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730), 5th Edition. O'Reilly Media, Inc. (2013).
+- W. McKinney. [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662). O'Reilly Media, Inc. (2018)
