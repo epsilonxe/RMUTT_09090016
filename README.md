@@ -41,10 +41,10 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | -----|------------|
 | แนะนําภาษาโปรแกรมไพธอน | [เอกสารบทที่ 1](./materials/ch_01/texts.pdf) |
 | แนะนําเครื่องมือพัฒนาโปรแกรมด้วยภาษาไพธอน  | [เอกสารบทที่ 2](./materials/ch_02/texts.pdf)  |
-| ตัวแปรและชนิดข้อมูลในภาษาโปรแกรมไพธอน | [เอกสารบทที่ 3](./materials/ch_03/texts.pdf) |
-| ชนิดข้อมูลสตริง | [เอกสารบทที่ 4](./materials/ch_04/texts.pdf) |
-| โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) |
-| คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) |
+| ตัวแปรและชนิดข้อมูลในภาษาโปรแกรมไพธอน | [เอกสารบทที่ 3](./materials/ch_03/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_03) |
+| ชนิดข้อมูลสตริง | [เอกสารบทที่ 4](./materials/ch_04/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_04) |
+| โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_05) |
+| คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_06) |
 | ฟังก์ชัน | |
 | แนะนําการเขียนโปรแกรมเชิงวัตถุ |  |
 | การจัดการข้อผิดพลาด | |
@@ -86,4 +86,5 @@ t-score = 50 + 10*(x - u)/s
 
 ## เอกสารอ้างอิง
 - Mark Lutz. [Learning Python](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730), 5th Edition. O'Reilly Media, Inc. (2013).
-- W. McKinney. [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662). O'Reilly Media, Inc. (2018)
+- W. McKinney. [Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662
+). O'Reilly Media, Inc. (2018)
