@@ -45,7 +45,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | ชนิดข้อมูลสตริง | [เอกสารบทที่ 4](./materials/ch_04/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_04) |
 | โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_05) |
 | คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_06) |
-| ฟังก์ชัน | |
+| ฟังก์ชัน | [เอกสารบทที่ 7](./materials/ch_07/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_07) |
 | แนะนําการเขียนโปรแกรมเชิงวัตถุ |  |
 | การจัดการข้อผิดพลาด | |
 | การใช้งานโมดูลและแพ็คเกจ |  |
