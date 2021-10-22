@@ -49,6 +49,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | แนะนําการเขียนโปรแกรมเชิงวัตถุ | [เอกสารบทที่ 8](./materials/ch_08/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_08) |
 | การจัดการข้อผิดพลาด | [เอกสารบทที่ 9](./materials/ch_09/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_09) |
 | การใช้งานโมดูลและแพ็คเกจ | [เอกสารบทที่ 10](./materials/ch_10/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_10) |
+
 [//]: # (| การเชื่อมต่อกับไฟล์ และระบบปฏิบัติการ  |  |)
 [//]: # (| การเขียนส่วนติดต่อผู้ใช้แบบกราฟฟิก|  |)
 
