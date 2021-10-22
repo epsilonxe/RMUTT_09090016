@@ -46,11 +46,11 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_05) |
 | คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_06) |
 | ฟังก์ชัน | [เอกสารบทที่ 7](./materials/ch_07/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_07) |
-| แนะนําการเขียนโปรแกรมเชิงวัตถุ |  |
-| การจัดการข้อผิดพลาด | |
-| การใช้งานโมดูลและแพ็คเกจ |  |
-| การเชื่อมต่อกับไฟล์ และระบบปฏิบัติการ  |  |
-| การเขียนส่วนติดต่อผู้ใช้แบบกราฟฟิก|  |
+| แนะนําการเขียนโปรแกรมเชิงวัตถุ | [เอกสารบทที่ 8](./materials/ch_08/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_08) |
+| การจัดการข้อผิดพลาด | [เอกสารบทที่ 9](./materials/ch_09/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_09) |
+| การใช้งานโมดูลและแพ็คเกจ | [เอกสารบทที่ 10](./materials/ch_10/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_10) |
+<!-- | การเชื่อมต่อกับไฟล์ และระบบปฏิบัติการ  |  |
+| การเขียนส่วนติดต่อผู้ใช้แบบกราฟฟิก|  | -->
 
 
 ## การวัดผลการเรียน

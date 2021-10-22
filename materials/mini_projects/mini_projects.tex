@@ -1,0 +1,256 @@
+\documentclass[a4paper]{article}
+\usepackage{minted}
+\usepackage{url, hyperref}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\tcbuselibrary{listings, minted, skins}
+\usepackage{thaispec}
+
+\title{Python Mini Projects}
+\author{Ratthaprom Promkam, Dr.rer.nat}
+\date{Revised: 24 September 2021}
+
+
+
+\definecolor{inline}{RGB}{187,57,82}
+\definecolor{bg}{RGB}{22,43,58}
+
+\tcbset{listing engine=minted}
+
+\newtcblisting{pylst}{listing only, minted language=python, minted style=paraiso-dark,
+    colback=bg, enhanced, frame hidden, minted options={fontfamily=fdm, 
+    fontsize=\footnotesize, tabsize=2, breaklines, autogobble}}
+
+\setminted[python]{linenos, tabsize=4, breaklines, autogobble}
+
+\begin{document}
+
+\maketitle
+เอกสารนี้ประกอบไปด้วยตัวอย่างโครงงานภาษาโปรแกรมไพธอนที่น่าสนใจ เหมาะกับผู้ที่เริ่มต้นเรียนรู้การพัฒนาซอฟท์แวร์คอมพิวเตอร์
+
+\tableofcontents
+
+\cleardoublepage
+\section{Guessing Number}
+โครงงานนี้เป็นการพัฒนาเกมในรูปแบบอย่างง่าย โดยให้ผู้เล่นทำการพยายามคาดเดาเลขที่โปรแกรมกำหนดไว้ล่วงหน้า เมื่อเริ่มต้นเกมโปรแกรมจะทำการสุ่มเลขมา 1 ตัวจากช่วงที่กำหนดไว้ (เช่น 1 - 10)  และผู้เล่นจะต้องทำการคาดเดาเลขไปจนกว่าจะตอบถูก เมื่อผู้เล่นตอบผิดในแต่ละครั้ง โปรแกรมจะต้องทำการแจ้งผู้เล่นว่าเลขที่ไม่ถูกต้องนั้นมีค่ามากไปหรือน้อยไปจากเลขที่ถูกต้อง
+
+ในการพัฒนาโปรแกรมนี้ผู้พัฒนาอาจมีการใส่ลักษณะเสริมเพิ่มเติมเช่น จำนวนครั้งการเดาที่จำกัด การใส่คำสั่งที่ทำให้ผู้เล่นสามารถออกจากเกมได้แม้ว่ายังตอบไม่ถูกต้อง หรือการใส่คำสั่งพิเศษที่ใส่เข้าไปแล้วผู้เล่นสามารถรู้คำตอบที่ถูกต้องได้ทันที เป็นต้น
+
+\subsection*{ตัวอย่างโปรแกรม}
+
+ในโปรแกรมนี้เราสามารถอิมพอร์ตฟังก์ชันในไลบรารีมาตรฐานอย่าง \mintinline{python}{random}\footnote{ดูคำสั่งเพิ่มเติมของไลบรารีนี้ได้จาก \url{https://docs.python.org/3/library/random.html}} เพื่อใช้คำสั่งในการสุ่มเลขจากช่วงที่กำหนด เช่น
+
+\begin{center}
+\begin{tabular}{|l|p{0.7\linewidth}|}
+\hline
+ฟังก์ชัน & ผลลัพธ์  \\  
+\hline
+
+\mintinline{python}{random.random()} &
+ส่งกลับค่าตัวเลขทศนิยมที่สุ่มมาจากช่วง $[0.0, 1.0)$ \\
+\hline
+
+\mintinline{python}{random.uniform(a, b)} &
+ส่งกลับค่าตัวเลขทศนิยมที่สุ่มแบบเอกรูปมาจากช่วง [\mintinline{python}{a}, \mintinline{python}{b}] \\
+\hline
+
+\mintinline{python}{random.randint(a, b)} &
+ส่งกลับค่าตัวเลขจำนวนเต็มมาจากช่วง [\mintinline{python}{a}, \mintinline{python}{b}] \\
+\hline
+
+\end{tabular}
+\end{center}
+
+\inputminted{python}{guessing_number.py}
+
+\subsection*{ตัวอย่างผลลัพธ์}
+
+\begin{minted}{console}
+GUESSING NUMBER GAME
+Try to guess my secret number from 1 - 100
+Try to guess my number: 50
+Your guessed nunber is too low
+Try to guess my number: 75
+Your guessed nunber is too low
+Try to guess my number: 90
+Your guessed nunber is too low
+Try to guess my number: 95
+Your guessed nunber is too low
+Try to guess my number: 97
+Your guess is correct!
+Thanks for playing    
+\end{minted}
+
+\cleardoublepage
+\section{Rock-Paper-Scissors}
+โครงงานนี้เป็นการพัฒนาเกมเป่ายิ้งฉุบในรูปแบบอย่างง่าย โดยให้ผู้เล่นเลือกออกคำสั่ง: ค้อน, กรรไกร หรือกระดาษ อย่างใดอย่างหนึ่ง และโปรแกรมก็สุ่มเลือกคำสั่ง: ค้อน, กรรไกร หรือกระดาษ อย่างใดอย่างหนึ่งเช่นกัน โดยการแพ้ชนะจะใช้หลักเกณฑ์มาตรฐานคือ
+\begin{itemize}
+    \item ค้อนชนะกรรไกร
+    \item กรรไกรชนะกระดาษ
+    \item กระดาษชนะค้อน
+    \item ถ้ายังไม่มีผู้ชนะ (ผู้เล่นออกคำสั่งตรงกับโปรแกรม) เกมจะกลับไปเริ่มต้นใหม่อีกครั้ง
+\end{itemize}
+
+\subsection*{ตัวอย่างผลลัพธ์}
+
+\begin{minted}{console}
+ROCK-PAPER-SCISSORS GAME
+------------------------------
+Enter your choice (R/P/S): R
+Rock (You) vs Paper (Com)
+--> You lose
+
+
+ROCK-PAPER-SCISORS GAME
+------------------------------
+Enter your choice (R/P/S): S
+Scissors (You) vs Paper (Com)
+--> You win
+
+
+ROCK-PAPER-SCISORS GAME
+------------------------------
+Enter your choice (R/P/S): R
+Rock (You) vs Rock (Com)
+--> Draw --> Play again
+Enter your choice (R/P/S): S
+Scissors (You) vs Paper (Com)
+--> You win
+\end{minted}
+
+\cleardoublepage
+\section{Dices Roll Simulator}
+โครงงานนี้ได้จำลองสถานการณ์การโยนลูกเต๋า \mintinline{python}{n} ลูก โดยลูกเต๋าแต่ละลูกเป็นอิสระต่อกัน และลูกเต๋าแต่ละลูกจะออกได้แต้ม 1-6 เท่านั้น
+
+\subsection*{ตัวอย่างผลลัพธ์}
+\begin{minted}{console}
+How many dices do you want to roll: 1
+[1] Rolling ... 4
+Total: 4
+
+How many dices do you want to roll: 3
+[1] Rolling ... 5
+[2] Rolling ... 1
+[3] Rolling ... 3
+Total: 5 + 1 + 3 = 9
+
+How many dices do you want to roll: 5
+[1] Rolling ... 1
+[2] Rolling ... 1
+[3] Rolling ... 4
+[4] Rolling ... 6
+[5] Rolling ... 2
+Total: 1 + 1 + 4 + 6 + 2 = 14
+\end{minted}
+
+\cleardoublepage
+\section{Password Generator}
+โครงงานนี้เป้าหมายคือต้องการให้ผู้ใช้สร้างรหัสผ่านที่มีความยาว \mintinline{python}{n} ตัวอักษร จากอักขระ \mintinline{python}{a-z}, \mintinline{python}{A-Z}, \mintinline{python}{0-9} และ อักขระสัญลักษณ์เพิ่มเติมจาก \mintinline{python}{'@$+-*/&<>^_'} โดยมีข้อบังคับคือ
+\begin{itemize}
+    \item มีอักขระอย่างน้อย 1 ตัวเป็นตัวอักขระจาก \mintinline{python}{A-Z}
+    \item มีอักขระอย่างน้อย 1 ตัวเป็นตัวอักขระจาก \mintinline{python}{0-9}
+    \item มีอักขระอย่างน้อย 1 ตัวเป็นตัวอักขระจาก \mintinline{python}{'@$+-*/&<>^_'}
+\end{itemize}
+
+\subsection*{ตัวอย่างผลลัพธ์}
+\begin{minted}{console}
+Enter the length of your password: 8
+r59Tb$8s
+
+Enter the length of your password: 16
+PO1Tx0$8<r5+Tb@8p
+\end{minted}
+
+\cleardoublepage
+\section{Hangman Game}
+โครงงานนี้เป็นการพัฒนาเกมแฮงแมน โดยโปรแกรมจะสุ่มคำมา 1 คำจากคลังคำศัพท์ และแสดงผลเป็น \mintinline{python}{_} แทนจำนวนตัวอักษรในคำนั้น เช่น หากคำที่โปรแกรมเลือกมาคือ \mintinline{python}{'HELLO'} โปรแกรมก็จะแสดงเป็น \mintinline{python}{'_ _ _ _ _'} หลังจากนั้นโปรแกรมก็จะให้ผู้เล่นคาดเดาตัวอักษรที่หายไป
+\begin{enumerate}
+    \item หากผู้เล่นตอบถูก โปรแกรมจะเปลี่ยนการแสดงจาก \mintinline{python}{_} เป็นตัวอักษรที่ผู้เล่นตอบถูก เช่นถ้าผู้เล่นตอบตัวอักษร \mintinline{python}{'L'} จากคำว่า \mintinline{python}{'HELLO'}  ได้ถูกต้อง โปรแกรมก็จะเปลี่ยนการแสดงผลจาก  \mintinline{python}{'_ _ _ _'} เป็น \mintinline{python}{'_ _ L L _'}
+    \item เกมจะจบลงเมื่อผู้เล่นตอบถูกทุกตัวอักษร
+    \item หากผู้เล่นตอบผิด โปรแกรมจะบันทึกจำนวนครั้งที่ตอบผิดไว้ และถ้าตอบผิดเกินกว่าจำนวนที่โปรแกรมตั้งไว้ เกมจะจบลงทันที
+\end{enumerate}
+
+\subsection*{ตัวอย่างผลลัพธ์}
+\begin{minted}{console}
+Hangman Game
+
+        _ _ _ _ _
+        
+Try to guess a character: A
+Your guess is wrong --> Mistake = 1
+
+Try to guess a character: O
+Your guess is right 
+
+        _ _ _ _ O
+        
+Try to guess a character: I
+Your guess is wrong --> Mistake = 2
+
+Try to guess a character: H
+Your guess is right 
+
+        H _ _ _ O
+
+Try to guess a character: L
+Your guess is right 
+
+        H _ L L O
+        
+Try to guess a character: E
+Your guess is right 
+
+        H E L L O
+        
+Thanks for playing!
+\end{minted}
+
+
+\cleardoublepage
+\section{Quadratic Polynomial Solver}
+โครงงานนี้เป็นการพัฒนาซอฟท์แวร์ในการหาผลเฉลยของพหุนามอันดับสองที่อยู่ในรูปของสมการ
+\[ ax^2 + bx + c = 0 \]
+เมื่อ $a \neq 0$, $b$ และ $c$ เป็นจำนวนจริงใด ๆ
+โดยผลเฉลยของสมการนี้สามารถหาได้จาก
+\[ x = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \]
+
+\subsection*{ตัวอย่างผลลัพธ์}
+\begin{minted}{console}
+Quadratic Polynomial Solver
+        ax^2 + bx + c = 0 
+
+Enter parameters a, b and c:  1 5 10
+Solutions to x^2+7x+10 = 0 are -2.0 and -5.0
+
+Enter parameters a, b and c:  2 5 -3
+Solutions to 2x^2+5x-3 = 0 are -3.0 and 0.5
+\end{minted}
+
+\cleardoublepage
+\section{Fibonacci Sequence Generator}
+ลำดับฟิโบนัชชีคือลำดับที่อยู่ในรูปของ
+\[ 1, 1, 2, 3, 5, 8, 13, 21, 43, \ldots \]
+โดยลำดับนี้มีรูปแบบทั่วไปคือ
+\[ a_n = a_{n-1} + a_{n-2} \]
+เมื่อ $a_1 = a_2 = 1$
+
+โครงงานนี้มีจุดประสงค์เพื่อพัฒนาซอฟท์แวร์ในการหา $n$ พจน์แรกของลำดับฟิโบนัชชี
+
+\subsection*{ตัวอย่างผลลัพธ์}
+\begin{minted}[breaklines]{console}
+Fibonacci Sequence Generator
+
+Enter the number of terms you want: 10
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+
+Enter the number of terms you want: 20
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, ... 
+
+Enter the number of terms you want: 30
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, ...
+\end{minted}
+
+
+ 
+  
+\end{document}
