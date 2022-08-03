@@ -35,6 +35,12 @@ Algorithmic problem solving, general concepts for computer programming, componen
 
 ![python](./images/banner.jpg)
 
+|    | Presentation  | Slide |
+|----|---------------|-------|
+| 1  | Introduction  | [Download](./materials/slides/lesson_01_introduction.pdf) |
+| 2  | Handling of Inputs  | [Download](./materials/slides/lesson_02.pdf) |
+
+
 | หัวข้อ | เอกสารประกอบ |
 | -----|------------|
 | แนะนําภาษาโปรแกรมไพธอน | [เอกสารบทที่ 1](./materials/ch_01/texts.pdf) |
@@ -47,7 +53,6 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | แนะนําการเขียนโปรแกรมเชิงวัตถุ | [เอกสารบทที่ 8](./materials/ch_08/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_08) |
 | การจัดการข้อผิดพลาด | [เอกสารบทที่ 9](./materials/ch_09/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_09) |
 | การใช้งานโมดูลและแพ็คเกจ | [เอกสารบทที่ 10](./materials/ch_10/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_10) |
-
 
 
 ## การวัดผลการเรียน
