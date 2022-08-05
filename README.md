@@ -13,12 +13,20 @@
 
 | Section | Invitation Code | 
 |---------|-----------------|
-| Sec 01  |  `ee6vin5`      | 
+|     01  |  `98gsz25`      | 
 
 กรุณากรอกรหัสการเข้าร่วมเพื่อเข้าใช้ห้องเรียนออนไลน์
 
-## เวลาเรียน
-วันพุธ 13.00 - 17.00 (บรรยายทฤษฎี 2 ชั่วโมง/ปฏิบัติการ 2 ชั่วโมง)
+## เวลาและสถานที่เรียน
+
+| Section | ห้องเรียน | วัน | เวลาบรรยายทฤษฏี  | เวลาปฏิบัติการ  |
+|--------|---------|----|---------------|---------------|
+| 01     |  ST1905 | พุธ| 13.00 - 14.00  | 14.00 - 17.00|
+
+สอบกลางภาค: 31 สิงหาคม 2565 เวลา 13.00 - 16.00
+
+สอบปลายภาค: 26 ตุลาคม 2565 เวลา 13.00 - 16.00
+
 
 ## คำอธิบายรายวิชา
 ขั้นตอนการแก้ปัญหา หลักการทั่วไปเกี่ยวกับการเขียนโปรแกรม องค์ประกอบของประโยคคำสั่ง เช่น ตัวแปร ค่าคงที่ เครื่องหมายกระทำการ นิพจน์ ฟังก์ชัน เป็นต้น ชนิดของข้อมูลแบบต่าง ๆ โครงสร้างข้อมูลแบบอาร์เรย์ โครงสร้างคำสั่งแบบตามลำดับ เลือกทำ และ การวนซ้ำ การเรียกใช้โปรแกรมย่อย การสร้างโปรแกรมย่อย การส่งผ่านค่าภายในโปรแกรม การบันทึกและอ่านข้อมูลจากแฟ้มข้อมูล การตรวจสอบ ทดสอบและแก้ไขโปรแกรม และการใช้เครื่องมือในการพัฒนาโปรแกรม
@@ -39,9 +47,9 @@ Algorithmic problem solving, general concepts for computer programming, componen
 |    | Presentation  | Chapters       |  Download |
 |----|---------------|----------------|-----------|
 | I  | Introduction  |         1, 2   | [Slide](./materials/slides/lesson_01_introduction.pdf) |
-| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02.pdf) <br> [Workshop II](./workshops/workshop_ii.zip) <br> [Solution II](./solutions/solution_01.zip) |
-| III | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03.pdf) <br> [Workshop III](./workshops/workshop_iii.zip) <br> [Solution III](./solutions/solution_iii.zip) |
-| IV | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04.pdf) <br> [Workshop III](./workshops/workshop_iv.zip) <br> [Solution III](./solutions/solution_iv.zip) |
+| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_02.zip) <br> [Solution II](./solutions/solution_02.zip) |
+| III | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_03.zip) <br> [Solution](./solutions/solution_03.zip) |
+| IV | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_04.zip) <br> [Solution](./solutions/solution_04.zip) |
 
 
 
