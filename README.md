@@ -6,15 +6,16 @@
 ![banner](./images/banner2.jpg)
 
 ## ปีการศึกษา 2565/1
-รายวิชานี้ดำเนินการสอนในรูปแบบการบรรยาย ปฏิบัติการทางคอมพิวเตอร์ อาจรวมถึงห้องเรียนออนไลน์หรือเป็นไปตามประกาศ
-ของทางมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี 
+รายวิชานี้ดำเนินการสอนในรูปแบบการบรรยาย ปฏิบัติการทางคอมพิวเตอร์ 
+อาจรวมถึงห้องเรียนออนไลน์หรือเป็นไปตามประกาศของทางมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี 
 
-<!-- | Section | Invitation Code |Link | 
-|---------|------|-----------------|
-| Sec 04 | `xlxua3v` | [Join Classroom](https://teams.microsoft.com/l/team/19%3aGYhlDmm8IgeXlggW0WYJ2cN03PfBRJ4WppJ837vkJY01%40thread.tacv2/conversations?groupId=d901b492-cfcb-495b-9acc-af356030cc73&tenantId=0ace20bb-9275-4172-b6f2-52b66dba0f4d)| 
+ห้องเรียนออนไลน์ Microsoft Teams
 
-ในกรณีที่นักศึกษาใช้รหัสการเข้าร่วม นักศึกษาสามารถเข้าใช้ห้องเรียนออนไลน์ได้ทันที แต่ถ้าใช้ลิงค์นักศึกษาต้องรอผู้สอนอนุมัติการเข้าร่วมอีกครั้ง 
-ภายในวันที่ 5 กรกฎาคม 2564 เวลา 09.00 -->
+| Section | Invitation Code | 
+|---------|-----------------|
+| Sec 01  |  `ee6vin5`      | 
+
+กรุณากรอกรหัสการเข้าร่วมเพื่อเข้าใช้ห้องเรียนออนไลน์
 
 ## เวลาเรียน
 วันพุธ 13.00 - 17.00 (บรรยายทฤษฎี 2 ชั่วโมง/ปฏิบัติการ 2 ชั่วโมง)
@@ -35,10 +36,10 @@ Algorithmic problem solving, general concepts for computer programming, componen
 
 ![python](./images/banner.jpg)
 
-|    | Presentation  | Slide |
-|----|---------------|-------|
-| 1  | Introduction  | [Download](./materials/slides/lesson_01_introduction.pdf) |
-| 2  | Handling of Inputs  | [Download](./materials/slides/lesson_02.pdf) |
+|    | Presentation  | Download |
+|----|---------------|----------|
+| 1  | Introduction  | [Slide](./materials/slides/lesson_01_introduction.pdf) |
+| 2  | Handling of Inputs  | [Slide](./materials/slides/lesson_02.pdf), [Workshop](./workshops/workshop_01.zip), [Solution](./solutions/solution_01.zip) |
 
 
 | หัวข้อ | เอกสารประกอบ |
