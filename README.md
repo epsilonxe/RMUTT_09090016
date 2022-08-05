@@ -47,7 +47,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 |    | Presentation  | Chapters       |  Download |
 |----|---------------|----------------|-----------|
 | I  | Introduction  |         1, 2   | [Slide](./materials/slides/lesson_01_introduction.pdf) |
-| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_02.zip) <br> [Solution II](./solutions/solution_02.zip) |
+| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_02.zip) <br> [Solution](./solutions/solution_02.zip) |
 | III | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_03.zip) <br> [Solution](./solutions/solution_03.zip) |
 | IV | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_04.zip) <br> [Solution](./solutions/solution_04.zip) |
 
