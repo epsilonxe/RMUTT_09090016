@@ -39,7 +39,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 |    | Presentation  | Download |
 |----|---------------|----------|
 | 1  | Introduction  | [Slide](./materials/slides/lesson_01_introduction.pdf) |
-| 2  | Handling of Inputs  | [Slide](./materials/slides/lesson_02.pdf), [Workshop](./workshops/workshop_01.zip), [Solution](./solutions/solution_01.zip) |
+| 2  | Handling of Inputs  | [Slide](./materials/slides/lesson_02.pdf) <br> [Workshop](./workshops/workshop_01.zip) <br> [Solution](./solutions/solution_01.zip) |
 
 
 | หัวข้อ | เอกสารประกอบ |
