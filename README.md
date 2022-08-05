@@ -36,24 +36,27 @@ Algorithmic problem solving, general concepts for computer programming, componen
 
 ![python](./images/banner.jpg)
 
-|    | Presentation  | Download |
-|----|---------------|----------|
-| 1  | Introduction  | [Slide](./materials/slides/lesson_01_introduction.pdf) |
-| 2  | Handling of Inputs  | [Slide](./materials/slides/lesson_02.pdf) <br> [Workshop](./workshops/workshop_01.zip) <br> [Solution](./solutions/solution_01.zip) |
+|    | Presentation  | Chapters       |  Download |
+|----|---------------|----------------|-----------|
+| I  | Introduction  |         1, 2   | [Slide](./materials/slides/lesson_01_introduction.pdf) |
+| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02.pdf) <br> [Workshop II](./workshops/workshop_ii.zip) <br> [Solution II](./solutions/solution_01.zip) |
+| III | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03.pdf) <br> [Workshop III](./workshops/workshop_iii.zip) <br> [Solution III](./solutions/solution_iii.zip) |
+| IV | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04.pdf) <br> [Workshop III](./workshops/workshop_iv.zip) <br> [Solution III](./solutions/solution_iv.zip) |
 
 
-| หัวข้อ | เอกสารประกอบ |
-| -----|------------|
-| แนะนําภาษาโปรแกรมไพธอน | [เอกสารบทที่ 1](./materials/ch_01/texts.pdf) |
-| แนะนําเครื่องมือพัฒนาโปรแกรมด้วยภาษาไพธอน  | [เอกสารบทที่ 2](./materials/ch_02/texts.pdf)  |
-| ตัวแปรและชนิดข้อมูลในภาษาโปรแกรมไพธอน | [เอกสารบทที่ 3](./materials/ch_03/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_03) |
-| ชนิดข้อมูลสตริง | [เอกสารบทที่ 4](./materials/ch_04/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_04) |
-| โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_05) |
-| คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_06) |
-| ฟังก์ชัน | [เอกสารบทที่ 7](./materials/ch_07/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_07) |
-| แนะนําการเขียนโปรแกรมเชิงวัตถุ | [เอกสารบทที่ 8](./materials/ch_08/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_08) |
-| การจัดการข้อผิดพลาด | [เอกสารบทที่ 9](./materials/ch_09/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_09) |
-| การใช้งานโมดูลและแพ็คเกจ | [เอกสารบทที่ 10](./materials/ch_10/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_10) |
+
+|    | หัวข้อ | เอกสารประกอบ |
+|----| -----|------------|
+| 1  | แนะนําภาษาโปรแกรมไพธอน | [เอกสารบทที่ 1](./materials/ch_01/texts.pdf) |
+| 2  | แนะนําเครื่องมือพัฒนาโปรแกรมด้วยภาษาไพธอน  | [เอกสารบทที่ 2](./materials/ch_02/texts.pdf)  |
+| 3  | ตัวแปรและชนิดข้อมูลในภาษาโปรแกรมไพธอน | [เอกสารบทที่ 3](./materials/ch_03/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_03) |
+| 4  | ชนิดข้อมูลสตริง | [เอกสารบทที่ 4](./materials/ch_04/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_04) |
+| 5  | โครงสร้างข้อมูลภาษาโปรแกรมไพธอน | [เอกสารบทที่ 5](./materials/ch_05/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_05) |
+| 6  | คําสั่งควบคุมทิศทางการทํางานโปรแกรม | [เอกสารบทที่ 6](./materials/ch_06/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_06) |
+| 7  | ฟังก์ชัน | [เอกสารบทที่ 7](./materials/ch_07/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_07) |
+| 8  | แนะนําการเขียนโปรแกรมเชิงวัตถุ | [เอกสารบทที่ 8](./materials/ch_08/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_08) |
+| 9  | การจัดการข้อผิดพลาด | [เอกสารบทที่ 9](./materials/ch_09/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_09) |
+| 10 | การใช้งานโมดูลและแพ็คเกจ | [เอกสารบทที่ 10](./materials/ch_10/texts.pdf) และ [ตัวอย่างโปรแกรม](https://github.com/epsilonxe/RMUTT_09090016/tree/master/materials/ch_10) |
 
 
 ## การวัดผลการเรียน
