@@ -44,13 +44,17 @@ Algorithmic problem solving, general concepts for computer programming, componen
 
 ![python](./images/banner.jpg)
 
+
+- **Level A**: Beginner
+- **Level B**: Intermediate
+- **Level C**: Advance
+
 |    | Presentation  | Chapters       |  Download |
 |----|---------------|----------------|-----------|
-| I  | Introduction  |         1, 2   | [Slide](./materials/slides/lesson_01_introduction.pdf) |
-| II | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_02.zip) <br> [Solution](./solutions/solution_02.zip) |
-| III | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_03.zip) <br> [Solution](./solutions/solution_03.zip) |
-| IV | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_04.zip) <br> [Solution](./solutions/solution_04.zip) |
-
+| A1  | Introduction  |         1, 2   | [Slide](./materials/slides/lesson_01_introduction.pdf) |
+| A2 | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_a2.ipynb) <br> [Solution](./solutions/solution_a2.ipynb) |
+| A3 | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_a3.zip) <br> [Solution](./solutions/solution_a3.zip) |
+| A4 | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_a4.zip) <br> [Solution](./solutions/solution_a4.zip) |
 
 
 |    | หัวข้อ | เอกสารประกอบ |
