@@ -55,7 +55,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | A2 | Handling of Inputs  | 2, 3, 4  | [Slide](./materials/slides/lesson_02_handling_inputs.pdf) <br> [Workshop](./workshops/workshop_a2.ipynb) <br> [Solution](./solutions/solution_a2.ipynb) |
 | A3 | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_a3.ipynb) <br> [Solution](./solutions/solution_a3.ipynb) |
 | A4 | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_a4.ipynb) <br> [Solution](./solutions/solution_a4.ipynb) |
-| B1 | Functions     | 7 | [Slide](./materials/slides/lesson_05_functions.pdf) |
+| B1 | Functions     | 7 | [Slide](./materials/slides/lesson_05_functions.pdf) <br> [Workshop](./workshops/workshop_b1.ipynb) |
 
 
 |    | หัวข้อ | เอกสารประกอบ |
