@@ -57,6 +57,8 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | A4 | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_a4.ipynb) <br> [Solution](./solutions/solution_a4.ipynb) |
 | B1 | Functions     | 7 | [Slide](./materials/slides/lesson_05_functions.pdf) <br> [Workshop](./workshops/workshop_b1.ipynb) |
 
+[ตัวอย่างข้อสอบปลายภาค](./materials/2021_final.pdf)
+
 
 |    | หัวข้อ | เอกสารประกอบ |
 |----| -----|------------|
