@@ -5,7 +5,7 @@
 
 ![banner](./images/banner2.jpg)
 
-## ปีการศึกษา 2565/1
+## ปีการศึกษา 2566/1
 รายวิชานี้ดำเนินการสอนในรูปแบบการบรรยาย ปฏิบัติการทางคอมพิวเตอร์ 
 อาจรวมถึงห้องเรียนออนไลน์หรือเป็นไปตามประกาศของทางมหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี 
 
@@ -13,19 +13,19 @@
 
 | Section | Invitation Code | 
 |---------|-----------------|
-|     01  |  `98gsz25`      | 
+|     01  |  `xxes1jm`      | 
 
 กรุณากรอกรหัสการเข้าร่วมเพื่อเข้าใช้ห้องเรียนออนไลน์
 
 ## เวลาและสถานที่เรียน
 
-| Section | ห้องเรียน | วัน | เวลาบรรยายทฤษฏี  | เวลาปฏิบัติการ  |
+| Section | ห้องเรียน | วัน | บรรยายทฤษฏี  | ปฏิบัติการ  |
 |--------|---------|----|---------------|---------------|
-| 01     |  ST1905 | พุธ| 13.00 - 14.00  | 14.00 - 17.00|
+| 01     |  ST1905 | จันทร์ | 13.00 - 14.00  | 14.00 - 17.00|
 
-สอบกลางภาค: 30 สิงหาคม 2565 เวลา 13.00 - 16.00
+สอบกลางภาค: 27 สิงหาคม 2566 เวลา 13.00 - 16.00
 
-สอบปลายภาค: 1 พฤศจิกายน 2565 เวลา 13.00 - 16.00
+สอบปลายภาค: 1 ตุลาคม 2566 เวลา 13.00 - 16.00
 
 
 ## คำอธิบายรายวิชา
@@ -38,7 +38,7 @@ Algorithmic problem solving, general concepts for computer programming, componen
 1. นักศึกษาเข้าใจหลักการเขียนโปรแกรม
 2. นักศึกษาสามารถเขียนรหัสเทียมและผังงานก่อนการพัฒนาซอฟต์แวร์ได้
 3. นักศึกษาสามารถพัฒนาซอฟต์แวร์ได้
-4. นักศึกษาสามารถประยุกต์ใช้ความรู้การเขียนโปรแกรมไปพัฒนาเป็นซอฟต์แวร์สำหรับงานด้านต่างๆได้
+4. นักศึกษาสามารถประยุกต์ใช้ความรู้การเขียนโปรแกรมไปพัฒนาเป็นซอฟต์แวร์สำหรับงานด้านต่าง ๆ ได้
 
 ## หัวข้อการบรรยาย
 
@@ -56,8 +56,6 @@ Algorithmic problem solving, general concepts for computer programming, componen
 | A3 | Logical Conditions  | 3, 6  | [Slide](./materials/slides/lesson_03_logical_conditions.pdf) <br> [Workshop](./workshops/workshop_a3.ipynb) <br> [Solution](./solutions/solution_a3.ipynb) |
 | A4 | Power of Iterations  | 4, 5, 6  | [Slide](./materials/slides/lesson_04_power_iterations.pdf) <br> [Workshop](./workshops/workshop_a4.ipynb) <br> [Solution](./solutions/solution_a4.ipynb) |
 | B1 | Functions     | 7 | [Slide](./materials/slides/lesson_05_functions.pdf) <br> [Workshop](./workshops/workshop_b1.ipynb) |
-
-[ตัวอย่างข้อสอบปลายภาค](./materials/2021_final.pdf)
 
 
 |    | หัวข้อ | เอกสารประกอบ |
